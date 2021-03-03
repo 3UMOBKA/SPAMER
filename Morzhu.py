@@ -1,6 +1,4 @@
-#!/usr/bin/python3
-# spymer v7.7
-# Author: FSystem88
+# Автор: 3UMOBKA
 import requests
 import random
 import datetime
@@ -22,9 +20,7 @@ def Main():
 	if int(ver) < int(version):
 		info = Back.RED+"\nВерсия устарела и нуждается в обновлении!"+Style.RESET_ALL
 	else:
-		info = " "
-	proxy = "localhost"
-	logo = Fore.GREEN+"8888888888888888888888888\n8888888888888888888888888\n888        888        888\n888  888888888  8888  888\n888  888888888  888888888\n888        888        888\n888  888888888888888  888\n888  888888888  8888  888\n888  888888888        888\n8888888888888888888888888\n8888888888888888888888888\n8888    FSystem88    8888\n8888   SMS Spammer   8888\n8888      v.7.7      8888\n8888   3UMOBKA   8888\n8888888888888888888888888\n8888888888888888888888888"+Style.RESET_ALL
+		info = Fore.AQUA+"Скрипт написал 3UMOBKA"+Style.RESET_ALL
 	def main():
 		global info
 		global proxy		
